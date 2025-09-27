@@ -300,3 +300,21 @@ body.dark #certifications {
   position: relative;
   z-index: 1; /* keep text above logo */
 }
+
+/* Floating Logos for Hero Section
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+.floating-logo {
+  position: fixed;
+  width: 60px;
+  opacity: 0.06;
+  animation: float 6s ease-in-out infinite;
+  z-index: -1;
+}
+.logo1 { top: 20%; left: 10%; animation-delay: 0s; }
+.logo2 { top: 40%; left: 80%; animation-delay: 2s; } */
+/* .logo3 { top: 70%; left: 30%; animation-delay: 4s; } */
